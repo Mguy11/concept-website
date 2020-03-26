@@ -1,0 +1,16 @@
+//Vars
+@import './vars/colors';
+
+//Components
+@import './components/navigation.scss';
+@import './components/header.scss';
+@import './components/footer.scss';
+@import './components/contentBlock.scss';
+@import './components/conceptBlock.scss';
+@import './components/parts/paragraph.scss';
+
+//Webparts
+@import './webparts/section.scss';
+
+//Reset
+@import './vars/reset';

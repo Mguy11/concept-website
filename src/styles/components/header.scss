@@ -1,0 +1,54 @@
+.header {
+  $self: &;
+
+  height: 80vh;
+  width: 100vw;
+  background-color: $color-purple-light;
+  margin-bottom: 4rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__title {
+    padding-bottom: 2rem;
+  } 
+  
+  &__subtitle {
+    color: $color-white;
+    font-size: 1.6rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      height: 0.15rem;
+      width: 15rem;;
+      background-color: $color-white;
+      margin-left: -15.5rem;
+      margin-top: 0.8rem;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 0.15rem;
+      width: 15rem;
+      background-color: $color-white;
+      margin-left: 1rem;
+      margin-top: 0.8rem;
+    }
+  }
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   height:10rem;
+  //   width: 100%;
+  //   background: url(../../images/header-golf.svg) no-repeat center;
+  //   z-index: 3;
+  // }
+}

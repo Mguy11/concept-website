@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/style.scss';
+import Navigation from './components/navigation';
+import Header from './components/header';
+import Footer from './components/footer';
+import ContentBlock from './components/contentBlock';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="wrapper">
+        <Header />
+        <ContentBlock
+          title = "Social Cooling"
+          subtitle = "Probleemstelling"
+          body= "Lorem Ipsum Dolor Sit amet"
+        />
+        <ContentBlock
+          title = "Grab that cookie"
+          subtitle = "Hoofdconcept"
+          body= "Lorem Ipsum Dolor Sit amet"
+        />
+        <ContentBlock
+          title = "Ontwerpproces"
+          subtitle = "Hoofdconcept"
+          body= "Lorem Ipsum Dolor Sit amet"
+        />
+        <Footer />
+      </div>
     </div>
   );
 }
