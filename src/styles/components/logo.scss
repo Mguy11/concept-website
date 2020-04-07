@@ -1,0 +1,16 @@
+.logo {
+
+    &__title {
+        font-family: 'Lobster Two', cursive;
+        font-size: 4rem;
+        margin-left: 2rem;
+    }
+
+    &__image {
+        position: relative;
+        height: 10rem;
+        width: 5rem;
+        background: url(../../images/Team_Logo.svg) no-repeat center center;
+        background-size: contain;
+    }
+}

@@ -1,55 +1,22 @@
 .header {
-  $self: &;
-
-  height: 60vh;
-  width: 100vw;
-  background-color: $color-purple-light;
-  margin-bottom: 4rem;
-
-  &__content {
+    background-color: $color-primary;
+    height: 60vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-
-  &__title {
-    color: $color-white;
-    padding-bottom: 2rem;
-  } 
-  
-  &__subtitle {
-    color: $color-white;
-    font-size: 1.6rem;
-
-    &::before {
-      content: '';
-      position: absolute;
-      height: 0.15rem;
-      width: 15rem;;
-      background-color: $color-white;
-      margin-left: -15.5rem;
-      margin-top: 0.8rem;
+    margin-bottom: 6rem;
+ 
+    &__content {
+        
     }
 
-    &::after {
-      content: '';
-      position: absolute;
-      height: 0.15rem;
-      width: 15rem;
-      background-color: $color-white;
-      margin-left: 1rem;
-      margin-top: 0.8rem;
+    &__title {
+        font-family: 'Monsterrat', sans-serif;
+        font-weight: 900;
+        font-size: 4rem;
     }
-  }
 
-  // &::after {
-  //   content: '';
-  //   position: absolute;
-  //   height:10rem;
-  //   width: 100%;
-  //   background: url(../../images/header-golf.svg) no-repeat center;
-  //   z-index: 3;
-  // }
+    &__logo {
+        display: flex;
+        padding: 6rem 0;
+    }
+    
 }
