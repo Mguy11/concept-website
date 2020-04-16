@@ -5,7 +5,6 @@
 @import './vars/colors.scss';
 
 //components
-@import './components/concept.scss';
 @import './components/concepts.scss';
 @import './components/footer.scss';
 @import './components/header.scss';
@@ -16,6 +15,7 @@
 @import './components/logo.scss';
 
 //Webparts
+@import './components//webparts/concept.scss';
 @import './components/webparts/team-member.scss';
 
 //reset

@@ -1,0 +1,33 @@
+.concept {
+    margin-bottom: 2rem;
+
+    &__image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem;
+        background-color: #E7EFF3;
+        border-radius: 0.4rem;
+        height: 100%;
+    }
+
+    &__image {
+        height: 12rem;
+    }
+    
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 1.5rem;
+    }
+
+    &__title {
+        font-family: 'Monsterrat', sans-serif;
+        font-weight: 900;
+    }
+
+    &__body {
+        line-height: 1.8rem;
+    }
+}
