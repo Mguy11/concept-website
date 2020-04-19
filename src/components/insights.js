@@ -3,13 +3,13 @@ import { Row, Col } from 'react-bootstrap';
 
 const Insights = () => {
     return(
-        <section className="research section">
+        <section className="insights section">
             <div className="wrap">
                 <Row>
                     <Col lg={{span: 5, offset: 1}}>
-                        <div className="research__content">
-                            <h2 className="research__title">Inzichten</h2>
-                            <span className="research__subtitle">De vijf belangrijkste inzichten hebben wij op een rijtje gezet.</span>
+                        <div className="insights__content">
+                            <h2 className="insights__title">Inzichten</h2>
+                            <span className="insights__subtitle">De vijf belangrijkste inzichten hebben wij op een rijtje gezet.</span>
                         </div>
                     </Col>
                 </Row>

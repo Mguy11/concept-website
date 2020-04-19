@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Concept from './webparts/concept';
-import HighlightedConcept from './webparts/highlighted-concept';
 
 const Concepts = () => {
     return(
@@ -14,10 +13,10 @@ const Concepts = () => {
                         </div>
                     </Col>
                 </Row>
-                <HighlightedConcept 
+                <Concept
                     class="concept"
                     image="../images/icons/Truck.svg"
-                    title="1. Free<dom>Foodtruck"
+                    title="1. Freedom Foodtruck"
                     body="Op het bevrijdingsfestival staan vaak meerdere foodtrucks. 
                     Voor onze expo willen wij daar nog 1 foodtruck aan toevoegen, namelijk de free<dom> truck. 
                     Hier kunnen mensen eten kopen met hun eigen data. Op de boorden rond de foodtruck kunnen 
