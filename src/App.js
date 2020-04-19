@@ -10,6 +10,7 @@ import Concepts from './components/concepts';
 import MainConcept from './components/main-concept';
 import DesignGuidelines from './components/design-guidelines';
 import Footer from './components/footer';
+import Testresults from './components/testresults';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Concepts />
       <MainConcept />
       <DesignGuidelines />
+      <Testresults />
       <Footer />
     </div>
   );
