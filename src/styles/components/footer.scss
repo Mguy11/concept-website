@@ -1,3 +1,29 @@
 .footer {
-    
+    &__divider {
+        position: absolute;
+        height: 0.4rem;
+        width: 30rem;
+        margin-left: -5rem;
+        border-radius: 0.4rem;
+        background-color: $color-secondary;
+    }
+
+    &__title {
+        font-family: 'Lobster Two', cursive;
+        font-size: 3rem;
+        margin-left: 2rem;
+    }
+
+    &__logo {
+        display: flex;
+        padding: 2rem 0 4rem 0;
+    }
+
+    &__image {
+        position: relative;
+        height: 7rem;
+        width: 6rem;
+        background: url(../../images/Team_Logo.svg) no-repeat center center;
+        background-size: contain;
+    }
 }

@@ -9,6 +9,7 @@ import Ideas from './components/ideas';
 import Concepts from './components/concepts';
 import MainConcept from './components/main-concept';
 import DesignGuidelines from './components/design-guidelines';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Concepts />
       <MainConcept />
       <DesignGuidelines />
+      <Footer />
     </div>
   );
 }
