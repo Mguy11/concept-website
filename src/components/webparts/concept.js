@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 export default class Concept extends Component {
     render() {
@@ -8,7 +8,7 @@ export default class Concept extends Component {
                 <Row>
                     <Col lg={{span:5, offset: 1}}>
                         <div className="concept__image-wrapper">
-                            <img className="concept__image" src={this.props.image} alt="concept-image"></img>
+                            <img className="concept__image" src={this.props.image} alt="concept"></img>
                         </div>
                     </Col>
                     <Col lg={{span:4, offset: 1}}>

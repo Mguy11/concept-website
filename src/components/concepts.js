@@ -1,5 +1,5 @@
-import React,{ Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 import Concept from './webparts/concept';
 import HighlightedConcept from './webparts/highlighted-concept';
 
