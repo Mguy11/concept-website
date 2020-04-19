@@ -11,11 +11,13 @@ import MainConcept from './components/main-concept';
 import DesignGuidelines from './components/design-guidelines';
 import Footer from './components/footer';
 import Testresults from './components/testresults';
+import Video from './components/video';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Video />
       <Team />
       <Research />
       <Insights />
