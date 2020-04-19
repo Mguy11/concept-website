@@ -8,6 +8,7 @@ import Insights from './components/insights';
 import Ideas from './components/ideas';
 import Concepts from './components/concepts';
 import MainConcept from './components/main-concept';
+import DesignGuidelines from './components/design-guidelines';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Ideas />
       <Concepts />
       <MainConcept />
+      <DesignGuidelines />
     </div>
   );
 }

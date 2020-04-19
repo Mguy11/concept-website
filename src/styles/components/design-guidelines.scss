@@ -1,0 +1,33 @@
+.design {
+    &__title {
+        font-family: 'Monsterrat', sans-serif;
+        font-weight: 900;
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+
+        &::before {
+            content: '';
+            position: absolute;
+            height: 0.4rem;
+            width: 3rem;
+            border-radius: 0.3rem;
+            background-color: $color-secondary;
+            margin-bottom: 7rem;
+        }
+    }
+
+    &__list{
+        margin: 2rem 0 0 1.5rem;
+    }
+
+    &__list-item {
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    &__list-text {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+}
