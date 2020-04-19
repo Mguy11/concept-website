@@ -5,6 +5,16 @@
         font-weight: 900;
         font-size: 4rem;
         margin-bottom: 4rem;
+
+        &::before {
+            content: '';
+            position: absolute;
+            height: 0.4rem;
+            width: 3rem;
+            border-radius: 0.3rem;
+            background-color: $color-secondary;
+            margin-bottom: 7rem;
+        }
     }
 
     &__name {
