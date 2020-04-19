@@ -14,22 +14,22 @@ const Insights = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={{span: 5, offset: 1}}>
+                    <Col lg={{span: 7, offset: 1}}>
                         <ol className="insights__list">
                             <li className="insights__list-item">
-                                <span className="insights__list-text">Social cooling</span>
+                                <span className="insights__list-text">De beloning is des te groter als je hem niet verwacht.</span>
                             </li>
                             <li className="insights__list-item">
-                                <span className="insights__list-text">Behavioural design</span>
+                                <span className="insights__list-text">Sociale druk kan veel controle over mensen uitoefenen.</span>
                             </li>
                             <li className="insights__list-item">
-                                <span className="insights__list-text">Biofeedback</span>
+                                <span className="insights__list-text">Afgeleide data is het meeste waard.</span>
                             </li>
                             <li className="insights__list-item">
-                                <span className="insights__list-text">Sensoren</span> 
+                                <span className="insights__list-text">Mensen beginnen te realiseren dat hun digitale reputatie belangrijk is.</span> 
                             </li>
                             <li className="insights__list-item">
-                                <span className="insights__list-text">De waarde van data</span>
+                                <span className="insights__list-text">Je past je gedrag aan als je het gevoel hebt bekeken te worden.</span>
                             </li>
                         </ol>
                     </Col>
