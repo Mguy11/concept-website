@@ -15,7 +15,7 @@ const Video = () => {
                 </Row>
                 <Row>
                     <Col lg={{span: 10, offset: 1}}>
-                    <iframe src="https://www.youtube.com/embed/AbV-Q6tz4B8"
+                    <iframe src="https://player.vimeo.com/video/409470586"
                         width="100%" height="600" frameborder="0" allowfullscreen className="video__wrapper">
                     </iframe>
                     </Col>
