@@ -8,7 +8,7 @@ export default class Concept extends Component {
                 <Row>
                     <Col lg={{span:5, offset: 1}}>
                         <div className="concept__image-wrapper">
-                            <img className="concept__image" src={this.props.image} alt="concept"></img>
+                            <img className="concept__image" src={this.props.image} alt="concept" draggable="false"></img>
                         </div>
                     </Col>
                     <Col lg={{span:4, offset: 1}}>

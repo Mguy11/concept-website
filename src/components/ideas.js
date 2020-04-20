@@ -16,7 +16,7 @@ const Ideas = () => {
                     <Col lg={{span: 10, offset: 1}}>
                         <div className="ideas__image-block">
                             <h3 className="ideas__subtitle">Mindmap</h3>
-                            <img className="ideas__head-image" src="../images/Mindmap.jpeg" alt="mindmap"></img>
+                            <img className="ideas__head-image" src="../images/Mindmap.jpeg" alt="mindmap" draggable="false"></img>
                         </div>
                     </Col>
                 </Row>
@@ -24,13 +24,13 @@ const Ideas = () => {
                     <Col lg={{span: 5, offset: 1}}>
                         <div className="ideas__image-block">
                             <h3 className="ideas__subtitle">COCD-Box</h3>
-                            <img className="ideas__image" src="../images/COCD-Box.jpeg" alt="COCD-Box"></img>
+                            <img className="ideas__image" src="../images/COCD-Box.jpeg" alt="COCD-Box" draggable="false"></img>
                         </div>
                     </Col>
                     <Col lg={{span: 5}}>
                         <div className="ideas__image-block">
                             <h3 className="ideas__subtitle">HMW's</h3>
-                            <img className="ideas__image" src="../images/HMW_s.jpeg" alt="HMW_s"></img>
+                            <img className="ideas__image" src="../images/HMW_s.jpeg" alt="HMW_s" draggable="false"></img>
                         </div>
                 </Col>
                 </Row>

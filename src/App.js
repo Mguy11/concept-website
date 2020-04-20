@@ -12,6 +12,7 @@ import DesignGuidelines from './components/design-guidelines';
 import Footer from './components/footer';
 import Testresults from './components/testresults';
 import Video from './components/video';
+import Prototype from './components/prototype';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Ideas />
       <Concepts />
       <MainConcept />
+      <Prototype />
       <DesignGuidelines />
       <Testresults />
       <Footer />

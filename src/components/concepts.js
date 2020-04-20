@@ -49,7 +49,6 @@ const Concepts = () => {
                         moeten mensen zich opgeven via de machine. Wanneer men de bepaald aantal vragen binnen de tijd heeft ingevuld zullen zij de koekjes vrijgeven. Wat de deelnemers 
                         niet door hebben gehad is dat aan de hand van hun ingevulde data er een profiel gecreëerd is."
                 />
-                
             </div>
         </section>
     );

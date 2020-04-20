@@ -11,7 +11,7 @@ const MainConcept = () => {
                             <h2 className="main-concept__title">De winnaar</h2>
                             <div className="main-concept__body">
                                 <Col lg={{span:8, offset: 2}}>
-                                <img className="main-concept__image" src="../images/icons/Truck.svg" alt="concept"></img>
+                                <img className="main-concept__image" src="../images/icons/Truck.svg" alt="concept" draggable="false"></img>
                                 <h3 className="main-concept__subtitle">Freedom Foodtruck</h3>
                                     <p className="main-concept__text">Op het bevrijdingsfestival staan vaak meerdere foodtrucks. 
                                     Voor onze expositie willen wij daar nog een foodtruck aan toevoegen, namelijk de Freedom Foodtruck. 

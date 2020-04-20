@@ -6,7 +6,7 @@ export default class TeamMember extends Component {
         return(
             <Col >
                 <div className="team-member">
-                    <img className="team-member__image" src={this.props.image} alt="team-member"></img>
+                    <img className="team-member__image" src={this.props.image} alt="team-member" draggable="false"></img>
                     <span className="team-member__name">{this.props.name}</span>
                 </div>
             </Col>

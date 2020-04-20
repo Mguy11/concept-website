@@ -18,8 +18,8 @@ const Header = () => {
                     </Col>
                     <Col lg={{span: 4, offset: 1}}>
                         <div className="header__content header__logo">
-                            <div className="logo__image" alt="logo-l'escargo"></div>
-                            <h2 className="logo__title">L'Escargo de la Liberté</h2>
+                            <div className="logo__image" alt="logo-l'escargot"></div>
+                            <h2 className="logo__title">L'Escargot de la Liberté</h2>
                         </div>
                     </Col>
                 </Row>

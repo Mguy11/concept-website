@@ -9,8 +9,8 @@ const Footer = () => {
                     <Col lg={{span: 3}}>
                         <span className="footer__divider"></span>
                         <div className="header__content footer__logo">
-                            <div className="footer__image" alt="logo-l'escargo"></div>
-                            <h2 className="footer__title">L'Escargo de la Liberté</h2>
+                            <div className="footer__image" alt="logo-l'escargot"></div>
+                            <h2 className="footer__title">L'Escargot de la Liberté</h2>
                         </div>
                     </Col>
                 </Row>
