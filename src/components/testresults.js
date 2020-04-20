@@ -9,7 +9,7 @@ const Testresults = () => {
                     <Col lg={{span: 5, offset: 1}}>
                         <div className="testresults__content">
                             <h2 className="testresults__title">Testresultaten</h2>
-                            <span className="testresults__subtitle">Als eerste hebben wij een paper prototype uitgewerkt (<a href="https://projects.invisionapp.com/share/SKWSXP7WT57#/screens" className="testresults__link">klik hier</a>).
+                            <span className="testresults__subtitle">Als eerste hebben wij een paper prototype uitgewerkt (<a href="https://projects.invisionapp.com/share/SKWSXP7WT57#/screens" className="testresults__link" target="__blank">klik hier</a>).
                             Dit paper prototype is volgens een testplan getest bij vier participanten. De resultaten van deze tests hebben wij met elkaar besproken en vergeleken. De tien belangrijkste vervolgstappen zijn gerangschikt op een lijst (1 = hoogste prioriteit, 10 = laagste prioriteit).
                             </span>
                         </div>

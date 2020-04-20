@@ -12,7 +12,15 @@
 
     &__logo {
         display: flex;
-        padding: 6rem 0;
     }
     
+    &__vertical-divider {
+        margin-left: 6rem;
+        display: flex;
+        justify-content: flex-end;
+        height: 12rem;
+        width: 0.5rem;
+        border-radius: 0.4rem;
+        background-color: $color-secondary;
+    }
 }

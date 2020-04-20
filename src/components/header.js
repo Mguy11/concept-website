@@ -13,6 +13,9 @@ const Header = () => {
                             social cooiling. Op deze pagina kan je meer lezen over ons proces en tot welke oplossing wij zijn</span>
                         </div>
                     </Col>
+                    <Col lg={{span: 1}}>
+                        <span className="header__vertical-divider"></span>
+                    </Col>
                     <Col lg={{span: 4, offset: 1}}>
                         <div className="header__content header__logo">
                             <div className="logo__image" alt="logo-l'escargo"></div>
